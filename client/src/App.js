@@ -28,7 +28,7 @@ state = {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">LevelOps - Atlanta</h1>
+          <h1 className="App-title">LevelOps - Metro Atlanta</h1>
         </header>
         <p className="App-intro">{this.state.data}</p>
       </div>
