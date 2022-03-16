@@ -14,7 +14,7 @@ state = {
   }
     // fetching the GET route from the Express server which matches the GET route from server.js
   callBackendAPI = async () => {
-    const response = await fetch('/express_backend');
+    const response = await fetch('/backend');
     const body = await response.json();
 
     if (response.status !== 200) {
@@ -27,7 +27,7 @@ state = {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo.com" />
           <h1 className="App-title">LevelOps - Metro Atlanta</h1>
         </header>
         <p className="App-intro">{this.state.data}</p>
@@ -37,3 +37,6 @@ state = {
 }
 
 export default App;
+
+
+
