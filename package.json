@@ -19,5 +19,6 @@
   "homepage": "https://github.com/level-ops/github-actions-app#readme",
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
